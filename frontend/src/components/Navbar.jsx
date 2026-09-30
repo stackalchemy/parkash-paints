@@ -4,29 +4,48 @@ import { Menu, Search, X, ChevronDown } from "lucide-react";
 
 const productMenu = [
   {
-    title: "Interior Walls",
+    title: "Interior",
     items: [
-      "Interior Water-Based Primer",
-      "Plastic Paint – Super Quality",
-      "Interior Plastic Paint",
-      "Oil Bond Distemper"
+      "Interior Emulsion",
+      "Water Based Primer",
+      "Cement Wall Putty",
+      "Wall Putty",
+      "Oil Bond Distemper",
+      "Texture"
     ]
   },
   {
-    title: "Exterior Walls",
+    title: "Exterior",
     items: [
-      "Exterior Water-Based Primer",
-      "Exterior Plastic Paint"
+      "Exterior Emulsion",
+      "Cement Paint"
     ]
   },
   {
     title: "Wood & Metal",
     items: [
-      "Enamel Solvent Primer",
+      "Varnish",
+      "Enamel Paint",
+      "Enamel Primer",
+      "Metallic Paint"
+    ]
+  },
+  {
+    title: "Industrial",
+    items: [
+      "Industrial Enamel",
+      "Industrial Primer",
       "Red Oxide Metal Primer"
     ]
   },
-  
+  {
+    title: "Construction & Tile",
+    items: [
+      "Tile Adhesive",
+      "Tile Epoxy",
+      "Grout"
+    ]
+  }
 ];
 
 export default function Navbar() {
