@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { Menu, Search, X, ChevronDown } from "lucide-react";
+import { Menu,  X, ChevronDown } from "lucide-react";
 
 const productMenu = [
   {
@@ -174,16 +174,11 @@ export default function Navbar() {
 
         <div className="nav-actions">
 
-          <button
-            className="icon-btn"
-            aria-label="Search"
-          >
-            <Search size={19} />
-          </button>
+          
 
 
           <Link
-            to="/about"
+            to="/Contact"
             className="dark-btn contact-btn"
           >
             Contact Us

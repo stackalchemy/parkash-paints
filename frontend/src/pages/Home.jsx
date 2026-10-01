@@ -61,8 +61,7 @@ export default function Home() {
         </div>
         <div className="hero-visual">
           <div className="hero-room"></div>
-          <div className="paint-can can-main"><b>PR<small>AKASH</small></b><span>PREMIUM</span><strong>EXTERIOR EMULSION</strong></div>
-          <div className="paint-can can-small"><b>PR<small>AKASH</small></b><span>INTERIOR</span><strong>LUXURY EMULSION</strong></div>
+        
         </div>
       </section>
 
